@@ -1,6 +1,6 @@
 package main;
 
-public class Chocolate extends AdicionalDescorator{
+public class Chocolate extends AdicionalDecorator{
     public Chocolate(Bebida b){
         super(b);
     }
