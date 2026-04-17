@@ -5,5 +5,4 @@ public abstract class Recheio implements Comida{
     public Recheio(Comida a){
         this.alimento = a;
     }
-    
 }
