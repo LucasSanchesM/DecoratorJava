@@ -10,6 +10,5 @@ public class PaoDeSal implements Comida{
     @Override
     public double preco(){
         return preco;
-    }
-    
+    }   
 }
