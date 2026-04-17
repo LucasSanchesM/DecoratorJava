@@ -10,6 +10,7 @@ public class DecoratorExercicio {
         Local casa2 = new CasaTriangular(200, 100);
         casa2 = new AvaliacaoRuim(casa2);
         
-        System.out.println(casa2);
+        System.out.println(casa2.exibirDescricao());
     }
+    
 }
