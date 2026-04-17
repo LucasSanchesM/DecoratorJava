@@ -1,0 +1,13 @@
+package decoratorexercicio;
+
+public class AvaliacaoOtima extends AdicionarAvaliacaoQ{
+    
+    public AvaliacaoOtima(Local q){
+        super(q);
+    }
+    
+    public String exibirDescricao(){
+        return local.exibirDescricao()+ " e tem uma otima avaliacao";
+    }
+    
+}
