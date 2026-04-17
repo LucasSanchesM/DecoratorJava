@@ -1,7 +1,6 @@
 package decoratorexercicio;
 
 public class AvaliacaoOtima extends AdicionarAvaliacao{
-    
     public AvaliacaoOtima(Local q){
         super(q);
     }
