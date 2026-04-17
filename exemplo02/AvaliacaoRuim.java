@@ -1,6 +1,6 @@
 package decoratorexercicio;
 
-public class AvaliacaoRuim extends AdicionarAvaliacaoQ{
+public class AvaliacaoRuim extends AdicionarAvaliacao{
     public AvaliacaoRuim(Local q){
         super(q);
     }
