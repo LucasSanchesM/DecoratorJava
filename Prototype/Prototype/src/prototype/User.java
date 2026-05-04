@@ -5,7 +5,12 @@ public class User implements Prototype{
     private String email;
     private String senha;
     private String username;
-    
+
+    //Vale Enfatizar que o java permite dois construtores em uma mesma classe
+    //desde que suas assinaturas (se refere ao tipo e ordem dos parametros recebebidos)
+    //sejam siferentes, exemplo -> String, String, Int e String, Int, String : Aceito
+    //                             String, String, Int e String, String, Int : Recusado
+    //Esse é o caso no prototype :)
     public User(User user){
         this.id = user.id;
         this.username = user.username;
