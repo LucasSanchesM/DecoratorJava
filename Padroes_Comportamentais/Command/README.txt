@@ -1,0 +1,1 @@
+Command é um padrão de projeto com intuito de desacoplação, ou seja, separar as ações do objeto, isso é interessante pois em alguns casos eu preciso apenas ter a ação sem precisar mexer diretamente com o objeto
